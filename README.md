@@ -1,6 +1,6 @@
 # How True is GPT-2?
 
-We include code for the paper `How True is GPT-2? An Empirical Analysis of Intersectional Occupational Biases.` It is structured into two folders: one containing code and the other containing relevant data files.
+We include code for the paper `How True is GPT-2? An Empirical Analysis of Intersectional Occupational Biases`. It is structured into two folders: one containing code and the other containing relevant data files.
 
 <p align="center">
 <img src="data/_splash.png" width="400">
