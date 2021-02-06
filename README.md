@@ -1,12 +1,12 @@
 # How True is GPT-2?
 
-We include code for the paper `How True is GPT-2? An Empirical Analysis of Intersectional Occupational Biases`. It is structured into two folders: one containing code and the other containing relevant data files.
+We include code and data for the paper `How True is GPT-2? An Empirical Analysis of Intersectional Occupational Biases`.
 
 <p align="center">
 <img src="data/_splash.png" width="400">
 </p>
       
-GPT-2 Monte-Carlo prediction vs ground truth USpopulation share. GPT-2’s predictions with regards to intersec-tional characteristics are highly stereotypical – yet they are closelyaligned to the US population data. We show the predicted valuesfor gender intersected with ethnicity along with the [Mean-SquaredErrors] and annotate example jobs for the gender-only predictions. For details, please look at the paper.
+Figure: GPT-2 Monte-Carlo prediction vs ground truth USpopulation share. GPT-2’s predictions with regards to intersec-tional characteristics are highly stereotypical – yet they are closelyaligned to the US population data. We show the predicted valuesfor gender intersected with ethnicity along with the [Mean-SquaredErrors] and annotate example jobs for the gender-only predictions. For details, please look at the paper.
 
 ## Code
 We include the following iPython notebooks. Each of the iPython notebooks are organized 
