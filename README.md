@@ -36,7 +36,7 @@ If you find the code in this repo useful, please consider citing:
 ```
 @misc{Kirk2021How,
       title={How True is GPT-2? An Empirical Analysis of Intersectional Occupational Biases}, 
-      author=Hannah Kirk and Yennie Jun and Haider Iqbal and Elias Benussi and Filippo Volpin and Frederic A. Dreyer and Aleksandar Shtedritski and Yuki M. Asano},
+      author={Hannah Kirk and Yennie Jun and Haider Iqbal and Elias Benussi and Filippo Volpin and Frederic A. Dreyer and Aleksandar Shtedritski and Yuki M. Asano},
       year={2021},
       eprint={XXX},
       archivePrefix={arXiv},
