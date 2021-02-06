@@ -1,6 +1,6 @@
-# README
+# How True is GPT-2?
 
-We include the supplementary material relevant to the paper, “How True is GPT-2? An Empirical Analysis of Intersectional Occupational Biases.” We include two folders: one containing code and the other containing relevant data files.
+We include the supplementary material relevant to the paper, `How True is GPT-2? An Empirical Analysis of Intersectional Occupational Biases.` We include two folders: one containing code and the other containing relevant data files.
 
 ## Code
 We include the following iPython notebooks. Each of the iPython notebooks are organized 
@@ -25,3 +25,15 @@ We include the following CSV files:
 ## Dependencies
 For the NER pipeline we ran Stanford CoreNLP on localhost. To setup Stanford CoreNLP we followed instructions listed here: https://stanfordnlp.github.io/CoreNLP/corenlp-server.html
 
+## Citation
+If you find the code in this repo useful, please consider citing:
+```
+@misc{Kirk2021How,
+      title={How True is GPT-2? An Empirical Analysis of Intersectional Occupational Biases}, 
+      author=Hannah Kirk and Yennie Jun and Haider Iqbal and Elias Benussi and Filippo Volpin and Frederic A. Dreyer and Aleksandar Shtedritski and Yuki M. Asano},
+      year={2021},
+      eprint={XXX},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
