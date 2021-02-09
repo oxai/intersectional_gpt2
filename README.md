@@ -1,6 +1,6 @@
 # How True is GPT-2?
 
-We include code and data for the paper `How True is GPT-2? An Empirical Analysis of Intersectional Occupational Biases`.
+We include code and data for the paper [`How True is GPT-2? An Empirical Analysis of Intersectional Occupational Biases`](http://arxiv.org/abs/2102.04130) 
 
 <p align="center">
 <img src="data/_splash.png" width="400">
@@ -38,7 +38,7 @@ If you find the code in this repo useful, please consider citing:
       title={How True is GPT-2? An Empirical Analysis of Intersectional Occupational Biases}, 
       author={Hannah Kirk and Yennie Jun and Haider Iqbal and Elias Benussi and Filippo Volpin and Frederic A. Dreyer and Aleksandar Shtedritski and Yuki M. Asano},
       year={2021},
-      eprint={XXX},
+      eprint={2102.04130},
       archivePrefix={arXiv},
       primaryClass={cs.CL}
 }
