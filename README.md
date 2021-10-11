@@ -18,21 +18,36 @@ We include the following python scripts:
 ## Data
 We include the following CSV files and folder structure:
 .
-├── scripts  
-├── data                   
-│   ├── XLNET 
+├── scripts
+
+├── data
+
+│   ├── XLNET
+
 |     |-- NER_output
+
 |           |-- names_occupations_template.csv
+
 |           |-- identity_occupations_template.csv
-│   ├── GPT-2    
+
+│   ├── GPT-2
+
 |     |-- NER_output
+
 |           |-- names_occupations_template.csv
+
 |           |-- identity_occupations_template.csv
-│   ├── shared_data    
+
+│   ├── shared_data
+
 |     |-- job_replacements.csv
+
 |     |-- us_rowwise_data.csv
+
 |     |-- gpt_vs_us_data.csv
+
 |     |-- top_names_country_processed.csv
+
             
 └── ...
 
