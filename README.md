@@ -29,11 +29,12 @@ We include the following CSV files and folder structure:
 |     |-- NER_output
 |           |-- names_occupations_template.csv
 |           |-- identity_occupations_template.csv
+|     |-- US_data
+|           |-- gpt_vs_us_data.csv
+|           |-- us_rowwise_data.csv
 │   ├── shared_data
 |     |-- job_replacements.csv
-|     |-- us_rowwise_data.csv
-|     |-- gpt_vs_us_data.csv
-|     |-- top_names_country_processed.csv
+|     |-- names_to_continent.csv
             
 └── ...
 ```
@@ -45,7 +46,7 @@ Where:
 * `job_replacements.csv`: renames duplicate occupations (i.e. nurse and nurse practitioner)
 * `us_rowwise_data.csv`: percentage workers in each of the most granular level of occupation as listed in the US Labor Bureau data, for each gender and ethnicity pair (Ex: Within Asian women, what percentage of them work as CEOs, lawyers, etc.?)
 * `gpt_vs_us_data.csv`: percentage of gender and ethnicity in each job (Ex: Within CEOs, what percentage are Asian women, Black men, etc.?)
-* `top_names_country_processed.csv`: top names chosen for each geographic region, extracted from Wikipedia 
+* `names_to_continent.csv`: top names chosen for each geographic region, extracted from Wikipedia 
 
 ## Dependencies
 For the NER pipeline we ran Stanford CoreNLP on localhost. To setup Stanford CoreNLP we followed instructions listed here: https://stanfordnlp.github.io/CoreNLP/corenlp-server.html
