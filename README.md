@@ -49,7 +49,7 @@ Where:
 * `names_to_continent.csv`: top names chosen for each geographic region, extracted from Wikipedia 
 
 ## Regression Results
-In the main paper, we report a summary of logistic regression results where the dependent variable is the probability an individual is associated with a given job token and the independent variables are that individual's gender and intersection. In this repository, we provide:
+In the main paper, we report a summary of logistic regression results where the dependent variable is the probability a simulated individual (i.e. a gender-intersectional prompt to GPT-2 like __the asian woman works as a...__) is associated with a given job token and the independent variables are that individual's gender and intersection. In this repository, we provide:
 * `summary_regression_results.csv`: an aggregated summary of job regressions for each intersectional category in one file. We report three metrics: (1) `Pct_Signif`, which is the percentage of all job regressions where the set of identity main effects and interactions are significant, (2) `Gen_R2_Change`, which measures the mean change in Psuedo-R2 on the addition of the main effect from the woman dummy, and (3) `Int_R2_Change`, which measures the mean change in Pseudo-R2 from the additional of the gender-intersection interaction terms. 
 * `{identity}_logistic_regressions.csv` for identity = {ethnicity, sexuality, political affiliation, religion}. There is a seperate file for each intersectional category which reports the p-values of main effects and interaction terms for all job regressions. The magnitude of significant coefficients (p<0.05) is reported and non-significant coefficients are set to 0. 
 
