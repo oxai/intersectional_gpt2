@@ -20,6 +20,7 @@ We include the following CSV files and folder structure:
 ```
 .
 ├── scripts
+├── regression_results
 ├── data
 │   ├── XLNET
 |     |-- NER_output
