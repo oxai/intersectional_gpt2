@@ -60,12 +60,10 @@ For the NER pipeline we ran Stanford CoreNLP on localhost. To setup Stanford Cor
 ## Citation
 If you find the code in this repo useful, please consider citing:
 ```
-@misc{Kirk2021,
+@inproceedings{Kirk2021bias,
       title={Bias Out-of-the-Box: An Empirical Analysis of Intersectional Occupational Biases in Popular Generative Language Models}, 
       author={Hannah Kirk and Yennie Jun and Haider Iqbal and Elias Benussi and Filippo Volpin and Frederic A. Dreyer and Aleksandar Shtedritski and Yuki M. Asano},
       year={2021},
-      eprint={2102.04130},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+      booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
 }
 ```
